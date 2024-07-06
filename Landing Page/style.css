@@ -1,0 +1,81 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+  color: yellow;
+}
+
+section {
+  padding: 60px 20px;
+  margin-top: 50px;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+section .content {
+  max-width: 800px;
+  text-align: center;
+}
+
+section .content img {
+  max-width: 43%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+section h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+#home { background-color: #f0f8ff; }
+#about { background-color: #ffe4e1; }
+#services { background-color: #f5f5dc; }
+#contact { background-color: #fafad2; }
